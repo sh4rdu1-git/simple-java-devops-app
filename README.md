@@ -12,3 +12,4 @@ docker run -p 8080:8080 java-devops-app:1.0.0
 
 ## Endpoint
 GET /hello
+GET /health
