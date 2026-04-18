@@ -1,5 +1,5 @@
 # Use official Java runtime
-FROM openjdk:25-rc-slim
+FROM eclipse-temurin:25-jdk-alpine-3.22
 
 # Set working directory
 WORKDIR /app
@@ -12,3 +12,6 @@ EXPOSE 8080
 
 # Run app
 ENTRYPOINT [ "java", "-jar", "app.jar" ]
+
+# Label for image
+LABEL version="1.0.0"
