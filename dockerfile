@@ -14,4 +14,4 @@ EXPOSE 8080
 ENTRYPOINT [ "java", "-jar", "app.jar" ]
 
 # Label for image
-LABEL version="1.0.2"
+LABEL version="1.0.3"
